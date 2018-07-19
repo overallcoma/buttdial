@@ -6,6 +6,6 @@ COPY buttdial.cfg /buttdial
 RUN apk update
 RUN apk add python3-dev
 RUN pip3 install --upgrade pip
-RUN pip3 install -r /upcheck/requirements.txt
+RUN pip3 install -r /buttdial/requirements.txt
 
 WORKDIR /upcheck
