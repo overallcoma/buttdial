@@ -64,7 +64,7 @@ def makecall():
                 url=xmlscript,
                 record=recordtf)
     timenow = datetime.datetime.now()
-    print("{time}: Calling {destination} from {source}").format(time=timenow, destination=targetnumber, source=number)
+    print("{time}: Calling {destination} from {source}".format(time=timenow, destination=targetnumber, source=number))
     time.sleep(sleeptime)
     return
 
